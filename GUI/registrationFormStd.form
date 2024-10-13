@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.registrationFormStd">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="23" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="546" height="653"/>
+    </constraints>
+    <properties>
+      <background color="-6257252"/>
+      <enabled value="true"/>
+      <foreground color="-6257252"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a369b" class="javax.swing.JLabel" binding="registrationtitle">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="21" style="1"/>
+          <text value="Registration"/>
+        </properties>
+      </component>
+      <component id="f6167" class="javax.swing.JLabel" binding="stdName">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="1"/>
+          <text value="Student Name :"/>
+        </properties>
+      </component>
+      <component id="9e639" class="javax.swing.JTextField" binding="nametf">
+        <constraints>
+          <grid row="4" column="1" row-span="2" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <caretColor color="-15058597"/>
+        </properties>
+      </component>
+      <component id="dd6c8" class="javax.swing.JTextField" binding="fathernametf">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b3207" class="javax.swing.JLabel" binding="CNIC">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="1"/>
+          <text value="CNIC :"/>
+        </properties>
+      </component>
+      <component id="a15b9" class="javax.swing.JTextField" binding="cnictf">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2373" class="javax.swing.JLabel" binding="Pno">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="1"/>
+          <text value="Phone Number :"/>
+        </properties>
+      </component>
+      <component id="39fe2" class="javax.swing.JTextField" binding="pno_tf">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="df12d" class="javax.swing.JLabel" binding="gender">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="1"/>
+          <text value="Gender :"/>
+        </properties>
+      </component>
+      <component id="cea77" class="javax.swing.JLabel" binding="pass">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="1"/>
+          <text value="Password : "/>
+        </properties>
+      </component>
+      <component id="e48d0" class="javax.swing.JPasswordField" binding="passTf">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c8c82" class="javax.swing.JLabel" binding="confirm">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="1"/>
+          <text value="Confirm PassWord :"/>
+        </properties>
+      </component>
+      <component id="fc8b4" class="javax.swing.JPasswordField" binding="confirmTf">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="29290">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="144ac" class="javax.swing.JLabel" binding="fatherName">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="1"/>
+          <text value="Father Name :"/>
+        </properties>
+      </component>
+      <component id="d44a8" class="javax.swing.JButton" binding="registerButton" default-binding="true">
+        <constraints>
+          <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6257252"/>
+          <font name="Georgia" size="14" style="1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <hspacer id="1832f">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2aea0">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="31078">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="1859c">
+        <constraints>
+          <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="680a9">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="df71c" class="javax.swing.JRadioButton" binding="maleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6257252"/>
+          <text value="Male"/>
+        </properties>
+      </component>
+      <component id="dd91d" class="javax.swing.JRadioButton" binding="femaleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6257252"/>
+          <text value="Female"/>
+        </properties>
+      </component>
+      <component id="27f32" class="javax.swing.JRadioButton" binding="otherRadioButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6257252"/>
+          <text value="Other"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

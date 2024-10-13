@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.BookSearchSystem">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="6" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="71" y="116" width="466" height="535"/>
+    </constraints>
+    <properties>
+      <font name="Berlin Sans FB Demi" size="14" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="88a36" class="javax.swing.JLabel" binding="hello">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16" style="1"/>
+          <text value="Hello, User"/>
+        </properties>
+      </component>
+      <component id="56e00" class="javax.swing.JLabel" binding="visitors">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="14" style="1"/>
+          <text value="Total Visitors"/>
+        </properties>
+      </component>
+      <component id="944c8" class="javax.swing.JLabel" binding="borrowedBooks">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="14" style="1"/>
+          <text value="Borrowed Books"/>
+        </properties>
+      </component>
+      <component id="2baa4" class="javax.swing.JLabel" binding="newMembers">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="14" style="1"/>
+          <text value="New Members"/>
+        </properties>
+      </component>
+      <hspacer id="db74c">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a1ce5">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="c84c5">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d1079" class="javax.swing.JLabel" binding="nVisitors">
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="14" style="1"/>
+          <text value="2344"/>
+        </properties>
+      </component>
+      <component id="5fd08" class="javax.swing.JLabel" binding="nborrowBooks">
+        <constraints>
+          <grid row="2" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="14" style="1"/>
+          <text value="740"/>
+        </properties>
+      </component>
+      <component id="8342d" class="javax.swing.JLabel" binding="nMembers">
+        <constraints>
+          <grid row="2" column="5" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="14" style="1"/>
+          <text value="64"/>
+        </properties>
+      </component>
+      <hspacer id="7dfa6">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <toolbar id="9c72" binding="toolbar">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-7367295"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="e1970">
+            <constraints/>
+          </hspacer>
+          <component id="db38d" class="javax.swing.JLabel" binding="home">
+            <constraints/>
+            <properties>
+              <icon value="GUI/home.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="7a3af">
+            <constraints/>
+          </hspacer>
+          <component id="8da1f" class="javax.swing.JLabel" binding="search">
+            <constraints/>
+            <properties>
+              <icon value="GUI/search.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="fd86">
+            <constraints/>
+          </hspacer>
+          <component id="206a2" class="javax.swing.JLabel" binding="profile">
+            <constraints/>
+            <properties>
+              <icon value="GUI/profile.png"/>
+              <requestFocusEnabled value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="c2683">
+            <constraints/>
+          </hspacer>
+          <component id="17f6b" class="javax.swing.JLabel" binding="settings">
+            <constraints/>
+            <properties>
+              <icon value="GUI/settings.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="1dc72">
+            <constraints/>
+          </hspacer>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>

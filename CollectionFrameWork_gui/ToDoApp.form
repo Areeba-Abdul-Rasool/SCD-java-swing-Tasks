@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CollectionFrameWork_gui.ToDoApp">
+  <grid id="27dc6" binding="app" layout-manager="GridLayoutManager" row-count="5" column-count="13" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16711410"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="42c45" class="javax.swing.JLabel" binding="title">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16" style="1"/>
+          <foreground color="-14791823"/>
+          <text value="To Do App"/>
+        </properties>
+      </component>
+      <hspacer id="b214f">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="6" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="503c7" class="javax.swing.JLabel" binding="listtitle">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16" style="1"/>
+          <foreground color="-14791823"/>
+          <text value="&gt; Lists"/>
+        </properties>
+      </component>
+      <hspacer id="9f21d">
+        <constraints>
+          <grid row="3" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="f3d7a" class="javax.swing.JLabel" binding="Today">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="21" style="1"/>
+          <foreground color="-14791823"/>
+          <text value="Today"/>
+        </properties>
+      </component>
+      <hspacer id="30ac7">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c0649" class="javax.swing.JButton" binding="newTaskButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16711410"/>
+          <enabled value="true"/>
+          <font name="Berlin Sans FB Demi" size="14" style="1"/>
+          <foreground color="-14791823"/>
+          <hideActionText value="true"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
+          <text value="+ New Task"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <grid id="6ead7" binding="taskpanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="10" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16711410"/>
+          <doubleBuffered value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
